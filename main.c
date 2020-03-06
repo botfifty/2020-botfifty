@@ -12,6 +12,7 @@ int main()
     
     int x=0;
     forward(60);
+    left(45);
 // rasies up claw
     cmpc(0);
     while(gmpc(0)<8000)
@@ -21,7 +22,7 @@ int main()
     ao();
     msleep(1000);
 //find botball
-    camera_open_black();
+/*    camera_open_black();
     while(x < 1)
     {
         camera_update();
@@ -42,7 +43,7 @@ int main()
         {
             x=x+1;
         }
-    }
+    }*/
 //found him! 
 //Drive forward 
 //    while(get_create_rbump()==0)
